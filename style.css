@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;400;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.services{
+    background-color: #EEEEEE;
+    padding: 64px 96px;
+    width: 1440px;
+    
+}
+.servic{
+    color: var(--grey-1, #000);
+    font-family: 'Rubik';
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.shadow{
+    font-family: 'Rubik';
+    font-size: 96px;
+    font-weight: 600;
+    color: #E5E5E5;
+    margin-bottom: -65px;
+}
+.cardlar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-basis: calc(100%);
+    /* margin: -95px 0 0 33px; */
+    color: #FFF;
+    font-family: 'Rubik';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    padding-bottom: 45px;
+}
+.card1{
+    background-image: url(./images/poezd.png);
+    width: 818px;
+    height: 427px;
+    padding: 350px 597px 29px 33px;
+    }
+    .card2{
+        background-image: url(./images/komp.png);
+        width: 399px;
+        height: 426px;
+        padding: 350px 82px 29px 41px;
+    }
+    .card3{
+        background-image: url(./images/trailer.png);
+        width: 400px;
+        height: 429px;
+        padding: 350px 110px 30px 36px;
+    }
+    .card4{
+        background-image: url(./images/qanot.png);
+        width: 400px;
+        height: 427px;
+        padding: 350px 179px 28px 46px;
+    }
+    .card5{
+        background-image: url(./images/air.png);
+        width: 400px;
+        height: 427px;
+        padding: 350px 30px 28px 35px;
+    }
+    .card6{
+        background-image: url(./images/trailer.png);
+        width: 399px;
+        height: 425px;
+        padding: 350px 60px 27px 30px;
+    }
+    .card7{
+        background-image: url(./images/airplan.png);
+        width: 818px;
+        height: 427px;
+        padding: 350px 470px 27px 40px;
+    }
+
+@media (max-width:400px) {
+    .servic{
+        text-align: center;
+    }
+    .shadow{
+        text-align: center;
+    }
+    .cardlar img { 
+       flex-basis: calc(100%/2);
+       padding: 16px 20px 0;
+       margin: 8px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+    }
+    .card1{
+        width: 320px;
+        height: 168px;
+    }
+    .card2{
+        width: 156px;
+        height: 167px;
+    }
+    .card3{
+        width: 156px;
+        height: 166px;
+    }
+    .card4{
+        width: 156px;
+        height: 167px;
+    }
+    .card5{
+        width: 155px;
+        height: 166px;
+    }
+    .card6{
+        width: 111px;
+        height: 167px;
+    }
+    .card7{
+        width: 201px;
+        height: 167px;
+    }
+}
